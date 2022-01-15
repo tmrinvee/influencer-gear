@@ -1,0 +1,356 @@
+/* common for all */
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+.half-width{
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+p{
+    font-size: 18px;
+}
+i{
+    color: white;
+}
+
+.margin-left{
+    margin-left: 10%;
+}
+.margin-right{
+    margin-right: 10%;
+}
+.margin-top{
+    margin-top: 10%;
+}
+.img-decor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+hr{
+    width: 80%;
+}
+/* start header section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    
+}
+.black-color{
+    color: black;
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: #393939;
+
+}
+.nav-rightside{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 55px;
+}
+nav h3{
+    color: black;
+}
+nav h3:hover{
+    color: #D0156C;
+}
+.nav-text{
+    color: white;
+    display: flex;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+nav h3{
+    margin-right: 15px;
+    font-weight: 100;
+    font-size: 18px;
+}
+/* end header section */
+
+/* start main section */
+
+/* intro */
+.intro-section{
+    display: flex;
+    color: white;
+    height: 75vh;
+    align-items: center;
+}
+.intro-section h1{
+    color: #393939;
+}
+.intro-section p{
+    font-weight: 500;
+    color: #393939;
+}
+.intro-section img{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-decoration: none;
+    background-color: #D0156C;
+    color: white;
+    width: 25%;
+    border-radius: 50px;
+}
+.link-button1{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-decoration: none;
+    background-color: #D0156C;
+    color: white;
+    font-weight: 400;
+    padding: 8px 8px;
+    font-size: 17px;
+}
+.link-button1:hover{
+    transform: scale(1.03);
+}
+
+/* others ecommerce sites */
+.ecommerce-sites{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.ecommerce-sites img{
+    margin-right: 50px;
+}
+
+/* popular products */
+.product {
+    width: 80%;
+    margin: 100px auto;
+    color: var(--text);
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ffffff;
+    grid-gap: 25px;
+}
+
+.p-h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.sample {
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: 1px 5px 15px -5px;
+    border-radius: 5px;
+}
+
+.sample>img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-left: 0px;
+}
+.fa-star,
+.fa-star-half-alt {
+    font-size: 10px;
+    margin: 0px;
+    color: orange;
+}
+.link-button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D0156C;
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    float: right;
+    font-size: larger;
+}
+.link-button2:hover{
+    transform: scale(1.03);
+}
+.button2-flex{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-decoration: none;
+    color: #D0156C;
+    width:25%;
+    float: right;
+
+}
+
+
+/* shop by category */
+.shop-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.shop-category h2{
+    font-size: 40px;
+}
+.shop-category img{
+    width: 200px;
+    height: 600px ;
+}
+
+/* all in one */
+.all-in-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-in-one h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+.img-decor{
+    border-radius: 15px;
+    height: 270px;
+}
+.link-button3{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-decoration: none;
+    background-color: #D0156C;
+    color: white;
+    font-weight: 400;
+    padding: 8px 8px;
+    font-size: 17px;
+}
+.link-button3:hover{
+    transform: scale(1.03);
+}
+.new-flex{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-decoration: none;
+    background-color: #D0156C;
+    color: white;
+    width:25%;
+
+}
+/* end main section */
+
+/* start footer section */
+footer{
+    text-align: center;
+    color: #fff;
+    background-color: #0A0826;
+    padding-top: 2px; 
+}
+footer h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+footer h5{
+    font-weight: 300;
+    margin-top: -5px;
+}
+.social-media-link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+footer a{
+    margin-right: 20px;
+    color: white;
+    
+}
+footer i:hover{
+    transform: scale(1.1);
+}
+/* media query */
+/* tablet view */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+nav{
+    display: none;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ecommerce-sites{
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-in-one{
+    display: flex;
+    flex-direction: column;
+}
+}
+/* mobile view */
+@media only screen and (max-width: 767px){
+nav{
+    display: none;
+}
+main {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ecommerce-sites{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.all-in-one{
+    flex-direction: column;
+}
+}
