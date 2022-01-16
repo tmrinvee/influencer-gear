@@ -116,6 +116,10 @@ nav h3{
     width: 25%;
     border-radius: 50px;
 }
+.flex:hover{
+    transform: scale(1.03);
+    transition: transform .2s;
+}
 .link-button1{
     display: flex;
     justify-content: center ;
@@ -123,13 +127,11 @@ nav h3{
     text-decoration: none;
     background-color: #D0156C;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     padding: 8px 8px;
     font-size: 17px;
 }
-.link-button1:hover{
-    transform: scale(1.03);
-}
+
 
 /* others ecommerce sites */
 .ecommerce-sites{
@@ -141,6 +143,9 @@ nav h3{
 }
 .ecommerce-sites img{
     margin-right: 50px;
+    margin-top: 25px;
+    height: 30px;
+    margin-bottom: 25px;
 }
 
 /* popular products */
@@ -160,6 +165,7 @@ nav h3{
 .p-h1 {
     text-align: center;
     margin-bottom: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -168,6 +174,11 @@ nav h3{
     background-color: white;
     box-shadow: 1px 5px 15px -5px;
     border-radius: 5px;
+    overflow: hidden;
+}
+.sample img:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
 }
 
 .sample>img {
@@ -184,29 +195,32 @@ span {
     margin: 0px;
     color: orange;
 }
-.link-button2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #D0156C;
-    margin-top: 25px;
-    text-decoration: none;
-    font-weight: 900;
-    float: right;
-    font-size: larger;
-}
-.link-button2:hover{
-    transform: scale(1.03);
-}
 .button2-flex{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+    color: #D0156C;
+    width: 25%;
+    border-radius: 50px;
+    float: right;
+    margin-top: 5%;
+}
+.button2-flex:hover{
+    transform: scale(1.03);
+    transition: transform .2s;
+}
+.button2-flex i{
+    color: #D0156C;
+}
+.link-button2{
     display: flex;
     justify-content: center ;
     align-items: center;
     text-decoration: none;
     color: #D0156C;
-    width:25%;
-    float: right;
-
+    font-weight: 600;
+    font-size: 17px;
 }
 
 
@@ -229,7 +243,7 @@ span {
 /* all in one */
 .all-in-one{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .all-in-one h1{
@@ -238,7 +252,9 @@ span {
 }
 .img-decor{
     border-radius: 15px;
+    width: 80%;
     height: 270px;
+    margin-right: 15px;
 }
 .link-button3{
     display: flex;
@@ -247,13 +263,11 @@ span {
     text-decoration: none;
     background-color: #D0156C;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     padding: 8px 8px;
     font-size: 17px;
 }
-.link-button3:hover{
-    transform: scale(1.03);
-}
+
 .new-flex{
     display: flex;
     justify-content: center ;
@@ -265,7 +279,10 @@ span {
     background-color: #D0156C;
     color: white;
     width:25%;
-
+}
+.new-flex:hover{
+    transform: scale(1.03);
+    transition: transform .2s;
 }
 /* end main section */
 
@@ -277,30 +294,30 @@ footer{
     padding-top: 2px; 
 }
 footer h1{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
+    margin-top: 3%;
 }
 footer h5{
     font-weight: 300;
-    margin-top: -5px;
+    margin-top: -25px;
 }
 .social-media-link{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
-    color: white;
+    font-size: 15px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    
+    margin-bottom: 3%;
 }
 
 footer a{
-    margin-right: 20px;
+    margin-right: 10px;
     color: white;
-    
+    text-decoration: none;
 }
 footer i:hover{
     transform: scale(1.1);
